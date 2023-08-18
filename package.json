@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "kaluma flash ./index.js",
+    "dev": "kaluma flash ./index.js --bundle --shell",
     "build": "kaluma bundle ./index.js --output ./build/index.js",
     "push": "kaluma flash ./build/index.js",
     "prod": "kaluma flash ./index.js --bundle",

@@ -9,3 +9,8 @@ kaluma 是一个用js 写 单片机的工具
 
 # FUTURE
 可以与一些传感器做联动，实现一些监控的功能。
+
+# 参考
+
+https://kalumajs.org/docs/tutorials
+
