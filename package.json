@@ -1,0 +1,22 @@
+{
+  "name": "kaluma-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "kaluma flash ./index.js",
+    "build": "kaluma bundle ./index.js --output ./build/index.js",
+    "push": "kaluma flash ./build/index.js",
+    "prod": "kaluma flash ./index.js --bundle",
+    "shell": "kaluma shell"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dht": "github:niklauslee/dht"
+  },
+  "devDependencies": {
+    "@kaluma/cli": "^1.4.0"
+  }
+}
