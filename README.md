@@ -1,7 +1,9 @@
 # Hello Kaluma
 
 以JavaScript编程, 控制单片机者，kaluma也。
+
 树莓派 pico之上,可运行之。
+
 此例为官方所示，实现了点灯操作。
 
 # FUTURE
